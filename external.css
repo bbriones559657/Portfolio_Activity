@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+a {
+  text-decoration: none;
+}
+.header {
+    display: block;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 2em;
+    background-color: #173f5f;
+    color: white;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.cards{
+    display: flex;
+
+  }
+
+h2 {
+    color: #173f5f;
+    margin-top: 3em;
+}
+  
+.gitLink {
+    color: #2575fc;
+    font-weight: bold;
+}
+  
+img {
+    filter: grayscale(20%);
+    transition: transform 0.3s;
+}
+  
+img:hover {
+    transform: scale(1.1);
+}
