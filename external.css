@@ -78,6 +78,20 @@ h3 {
     box-shadow: 0 0 15px #173f5f9e;
     transform: translateY(-5px);
 }
+
+.project {
+    background-color: #4e698027;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.1s ease, border-left 0.1s ease;
+}
+
+.project:hover {
+    background-color: #4e69804d;
+    border-left: #173f5f 4px solid;
+}
+
 .contact {
     text-align: center;
     font-size: 20px;
